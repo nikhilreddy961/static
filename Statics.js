@@ -180,7 +180,8 @@ LUI.started_ordbtn=false;LUI.start_ordbtn=function(host_selector)
 +'</div>'
 +'</div>'
 +'<script>');var host=document.querySelector(host_selector);host.appendChild(rto_element);LUI.attachGEvents(host);var rto=document.querySelector(".buy-container");rto.style.display="block";LUI.started_ordbtn=true;}}
-var gtm="GTM-N5JSL76";var gtm_datalayer="evttrk_dataLayer";LUI.createEventTrackingPx=function()
+var gtm="GTM-NCW2KDN";var 
+_datalayer="evttrk_dataLayer";LUI.createEventTrackingPx=function()
 {if(typeof window[gtm_datalayer]=="undefined")
 {window[gtm_datalayer]=window[gtm_datalayer]||[];(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script',gtm_datalayer,gtm);}}
 LUI.createEventTrackingPx();LUI.myGoogleEvent=function(setup)
